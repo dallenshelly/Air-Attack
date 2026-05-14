@@ -2,13 +2,13 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
 [![Pygame](https://img.shields.io/badge/Pygame-2.5.0-green.svg)](https://pygame.org)
-[![License](https://img.shields.io/badge/License-Personal%20Use-red.svg)]()
+[![License](https://img.shields.io/badge/License-Personal%20Use-red.svg)](https://github.com/dallenshelly/Air-Attack/)
 
-A fast-paced aerial combat shooter where you pilot a fighter jet through waves of enemies, battle powerful bosses, and master combo chains across multiple dynamic themes.
+A fast-paced aerial combat shooter where you pilot a fighter jet through waves of enemies, battle powerful bosses, and master combo chains in deep space.
 
 ## 🎮 Game Overview
 
-Air Attack is an intense shoot 'em up game developed by a single developer with over 5,000-12,000 lines of code. Experience thrilling dogfights, epic boss battles, and addictive arcade action!
+Air Attack is an intense space-based shoot 'em up game developed by a single developer with over 5,000-12,000 lines of code. Experience thrilling dogfights, epic boss battles, and addictive arcade action among the stars!
 
 ## 📋 Requirements
 
@@ -22,7 +22,7 @@ Air Attack is an intense shoot 'em up game developed by a single developer with 
 | Drive | HDD | SSD |
 
 ### Software Requirements
-- **Python 3.12** or higher
+- **Python 3.12** or lower
 - **uv** (Python package manager)
 - **venv** (Virtual Environment)
 
@@ -48,18 +48,18 @@ uv pip install pygame numpy
 ```
 
 ### 4. Launch the Game
-Double-click `AirAttackGame.bat` or run:
+Double-click `start.bat` or run:
 ```bash
 uv run main.py
 ```
 
 ## 🎯 Features
 
-- ✅ **Intense Combat** - Face waves of enemy aircraft
+- ✅ **Space Combat** - Battle through star-filled backgrounds
 - ✅ **Epic Boss Battles** - Challenge massive bosses at key levels
 - ✅ **Weapon Upgrades** - Collect power-ups (Double, Triple, Laser, Missile)
 - ✅ **Combo System** - Chain kills for massive score multipliers
-- ✅ **Dynamic Themes** - Battle across day, night, ocean, desert, city, and space
+- ✅ **Space Theme** - Deep space battlefields with starfields
 - ✅ **Save System** - Progress persists between sessions
 - ✅ **Power-ups** - Shields, health, speed boost, magnet, extra lives
 - ✅ **Score Tracking** - High scores and level statistics
@@ -68,23 +68,18 @@ uv run main.py
 
 | Key | Action |
 |-----|--------|
-| **Arrow Keys** | Move aircraft |
-| **Space / Z** | Shoot |
-| **X / C** | Special weapon / Missile |
+| **← / → Arrow Keys** | Move aircraft left/right |
+| **Space** | Shoot primary weapon |
+| **Shift** | Fire missile |
 | **ESC** | Pause game |
-| **F1** | Cheat: +1000 score |
-| **F2** | Cheat: Next level |
 
-## 🎨 Game Themes
+## 🌌 Game Theme
 
-| Theme | Background | Difficulty |
-|-------|------------|------------|
-| Day | Sky Blue | Normal |
-| Night | Dark Sky | Medium |
-| Ocean | Deep Blue | Medium |
-| Desert | Sandy | Hard |
-| City | Urban Night | Hard |
-| Space | Starfield | Very Hard |
+The game features a **complete space-based theme** with:
+- Starfield backgrounds
+- Deep space visual effects
+- Cosmic enemy designs
+- Space battle atmosphere
 
 ## 📊 Scoring System
 
@@ -113,6 +108,13 @@ Contains nearly 5,000 to 12,000 lines of code.
 Please use it with respect.
 ```
 
+## 🐛 Known Issues
+
+The game may contain minor bugs. If you encounter any issues:
+- Restart the game
+- Contact support with details
+- Your feedback helps improve the game
+
 ## 📝 License
 
 **For Personal Use Only**
@@ -129,35 +131,21 @@ Please include:
 - Error messages (if any)
 - Your system specifications
 - Steps to reproduce the issue
+- Screenshots if possible
 
-## 🎯 Version History
+## 📜 Version History
 
 ### Version 1.0
 - Initial release
-- Full gameplay mechanics
-- 6 dynamic themes
+- Complete space-based theme
 - Boss battles
 - Power-up system
 - Save/Load functionality
+- Minor bugs present
 
 ---
 
 **Thank you for playing Air Attack Game!** 
 
-*Defend the skies, pilot!* 🎮
-```
+*Defend the galaxy, pilot!* 🚀
 
-This README includes:
-- Game overview and description
-- Hardware and software requirements
-- Step-by-step installation guide
-- Complete feature list
-- Controls reference
-- Theme explanations
-- Scoring system details
-- Credits and contact information
-- Your respectful request notice
-- Support instructions
-- Version history
-
-Save this as `README.md` in your game's root directory!
