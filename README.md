@@ -41,7 +41,7 @@ pip install uv
 ```
 
 ### 3. Run Setup
-Double-click `setup.bat` OR run:
+Double-click `Setup.bat` OR run:
 ```bash
 uv venv
 uv pip install pygame numpy
