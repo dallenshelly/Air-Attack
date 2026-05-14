@@ -1,0 +1,28 @@
+To add custom images for weapons:
+Place these PNG files in assets/images/:
+
+bullet_player.png - Yellow/small bullet
+
+bullet_enemy.png - Red/small bullet
+
+missile_player.png - Orange missile shape
+
+missile_enemy.png - Red missile shape
+
+powerup_double.png - Cyan star
+
+powerup_triple.png - Yellow star
+
+powerup_laser.png - Purple star
+
+powerup_shield.png - Blue star
+
+powerup_health.png - Green star
+
+powerup_missile.png - Orange star
+
+powerup_speed.png - Red star
+
+powerup_magnet.png - White star
+
+powerup_life.png - Gold star
