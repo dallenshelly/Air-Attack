@@ -75,16 +75,21 @@ echo                 STARTING GAME...
 echo =======================================================
 echo.
 
-uv run main.py
-
+uv run main.py 2>nul
 if %errorlevel% neq 0 (
     echo.
-    echo [ERROR] Game failed to start
-    echo.
-    echo Try running: uv run main.py manually
-    echo.
-    pause
-    goto MENU
+    echo [INFO] uv not found, trying python directly...
+    timeout /t 1 >nul
+    python main.py
+    if %errorlevel% neq 0 (
+        echo.
+        echo [ERROR] Game failed to start
+        echo.
+        echo Try running: python main.py manually
+        echo.
+        pause
+        goto MENU
+    )
 )
 
 echo.
